@@ -4,36 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Google keep</title>
 </head>
     <body>
         <nav>
-            <div class="left-menu">
-                <p>menu icon</p>
-                <p>keep icon</p>
-                <h2>keep</h2>
-            </div>
-            <div>
-                <input type="text" placeholder="search">
-            </div>
-            <div class="right-content">
-                <div>
-                    <p>refresh</p>
-                </div>
-                <div>
-                    <p>list view</p>
-                </div>
-                <div>
-                    <p>settings</p>
-                </div>
-                <div>
-                    <p>google apps</p>
-                </div>
-                <div>
-                    <p>Accounts</p>
+            <div class="nav-bar">
+                <div class="first-content">
+                    <span  class="material-symbols-outlined">
+                        menu
+                    </span>
+                    <img src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png" alt="keep logo">
+                    <h2>keep</h2>
+                
+                    <div class="search">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                        <input type="text" placeholder="">
+                        
+                    </div>
+                    <div class="right-content">
+                        <span  class="material-symbols-outlined">
+                                    refresh
+                        </span>
+                        <span class="material-symbols-outlined">
+                                    splitscreen   
+                        </span>
+                        <span class="material-symbols-outlined">
+                                    settings
+                        </span>
+                    </div>
+                    <div class="last-content">     
+                        <span class="material-symbols-outlined">
+                                    apps
+                        </span>
+                        <span class="material-symbols-outlined">
+                                    account_circle
+                        </span>
+                    </div>
                 </div>
             </div>
         </nav>
-        
+        <main>
+            <div class="side-bar">
+                <div class="side-bar-item">
+                    <span class="material-symbols-outlined">
+                        lightbulb
+                    </span> 
+                    <span class="sidebar-text">Notes</span>
+                </div>
+                <div class="side-bar-item">  
+                    <span class="material-symbols-outlined">
+                        notifications
+                    </span>
+                    <span class="sidebar-text">Reminders</span>
+                </div>
+                <div class="side-bar-item">    
+                    <span class="material-symbols-outlined">
+                        edit
+                    </span>
+                    <span class="sidebar-text">Edit lebels</span>
+                </div>  
+                <div class="side-bar-item"> 
+                    <span class="material-symbols-outlined">
+                        archive
+                    </span>
+                    <span class="sidebar-text">Archive</span>
+                </div>
+                <div class="side-bar-item">
+                    <span class="material-symbols-outlined">
+                        delete
+                    </span>
+                    <span class="sidebar-text">Trash</span>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
